@@ -1,8 +1,8 @@
 {
-  "name": "bjsmasth/php-salesforce-rest-api",
+  "name": "kappafix/php-salesforce",
   "license": "MIT",
   "keywords": [
-    "bjsmasth",
+    "kappafix",
     "php salesforce",
     "php salesforce rest",
     "php salesforce rest api",
@@ -10,9 +10,9 @@
   ],
   "authors": [
     {
-      "name": "Bijesh Shrestha",
-      "email": "bjsmasth@gmail.com",
-      "homepage": "https://github.com/bjsmasth"
+      "name": "Cosimo Elefante",
+      "email": "miele123@gmail.com",
+      "homepage": "https://github.com/kappafix"
     }
   ],
   "require": {
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "bjsmasth\\Salesforce\\": "src/"
+      "kappafix\\Salesforce\\": "src/"
     }
   }
 }
