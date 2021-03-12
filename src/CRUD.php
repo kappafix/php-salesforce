@@ -1,6 +1,6 @@
 <?php
 
-namespace bjsmasth\Salesforce;
+namespace kappafix\Salesforce;
 
 use GuzzleHttp\Client;
 use Exception\Salesforce as SalesforceException;
