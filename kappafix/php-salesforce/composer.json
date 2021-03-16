@@ -1,0 +1,29 @@
+{
+	"name": "kappafix/php-salesforce",
+	"description": "PHP Salesforce REST API wrapper",
+	"license": "MIT",
+	"keywords": [
+		"php salesforce",
+		"php salesforce rest",
+		"php salesforce rest api"
+	],
+	"authors": [
+		{
+			"name": "Cosimo Elefante (kappafix)",
+			"email": "miele@gmail.com",
+			"homepage": "https://github.com/kappafix"
+		}
+	],
+	"require": {
+		"guzzlehttp/guzzle": "^6.2",
+		"php": ">=7.0",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kappafix\\Salesforce\\": "src/"
+		},
+		 "classmap": ["src/"]
+		
+	}
+}
