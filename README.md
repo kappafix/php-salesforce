@@ -110,7 +110,7 @@ Delete
 Get
 
 ```bash
-    $salesforce->Account->id($id);
+    $salesforce->Account->get($id);
 ```
 
 Describe
