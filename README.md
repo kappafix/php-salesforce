@@ -49,7 +49,7 @@ Authentication
 		'apiVersion' => 'v48.0'
     ];
 
-	$salesforce = new \kappafix\Salesforce\SfCaller($options);
+	$salesforce = new \Kappafix\Salesforce\SfCaller($options);
 
     /* if you need access token or instance url */
     $accessToken = $salesforce->getAccessToken();
