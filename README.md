@@ -76,7 +76,7 @@ Create
     ];
 
     /* returns the id of the created object */
-    $salesforce->Account->create( $data);
+    $salesforce->Account->insert( $data);
 ```
 
 Update
