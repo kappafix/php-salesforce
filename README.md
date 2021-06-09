@@ -132,3 +132,5 @@ Custom endpoint
  - made easier to use, especially if you use it in multiple area of your code
  - added a SalesforceWrapper on SalesforceFunctions
  - added a SfCaller for the syntax $salesforce->Object->method($arguments)
+##### 09.06.2021 #####
+- Bug Fixing
