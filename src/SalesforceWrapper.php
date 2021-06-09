@@ -86,7 +86,7 @@ class SalesforceWrapper
 
 		}
 	
-	public function customEndpoint(String $customerEndPoint, String $data, Int $httpStatus=200){
+	public function customEndpoint(String $customerEndPoint, $data, Int $httpStatus=200){
 			
 			return $this->sf->customEndpoint($customerEndPoint, $data, $httpStatus);
 
